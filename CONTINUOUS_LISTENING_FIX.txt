@@ -1,0 +1,16 @@
+LUCKI AI FIX NOTES
+
+1. After a wake phrase is detected, Lucki stays in active conversation mode through silence/timeouts.
+   Press Stop Listening to stop the microphone loop.
+2. Initial wake phrases include: Lucki, Lucky, Hey, Hello, Hy, Hi, Hii.
+3. Gemini failures now print more detailed diagnostics and return a more specific message.
+4. No API key is included in this ZIP.
+
+SETUP
+- Keep your existing private .env file in the same folder as main.py, or copy .env.example to .env.
+- Set GEMINI_API_KEY in .env. Never paste the key into chat or share it.
+- Install requirements: python -m pip install -r requirements.txt
+- Run: python main.py
+
+NOTE
+SpeechRecognition's Google recognition needs internet. Gemini answers also need internet and a valid API key.

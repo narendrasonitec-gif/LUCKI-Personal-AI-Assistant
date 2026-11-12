@@ -1,0 +1,11 @@
+LUCKI AI UPDATED SOURCE
+
+Preserves existing modules and adds Home-screen tools:
+- Attach text/CSV/Markdown and extract selectable PDF text into prompt.
+- Copy Chat plain text to clipboard.
+- Show locally saved chat history.
+- Toggle compact and normal window sizes.
+- Windows SAPI speech fallback when Edge TTS fails.
+- Existing installed Start Menu app launcher retained.
+
+See FINAL_README_HINDI.txt for setup and limitations. This is source code, not a ready-made EXE.
